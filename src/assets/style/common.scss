@@ -1,0 +1,40 @@
+.flex-x-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-x-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-x-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-x-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-y-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-y-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-y-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.van-dialog__message{
+    font-size: 100% !important;
+}
